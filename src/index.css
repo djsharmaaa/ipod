@@ -7,3 +7,198 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+/* styling app compenent */
+
+.App {
+  border: 10px solid lightpink;
+  height: 500px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 500px;
+  border-radius: 10px;
+  background-color: darkgray;
+ 
+  box-shadow: 0px 5px 11px 7px darkgray;
+}
+
+
+/*  style control button */
+
+#outer {
+  height: 250px;
+  width: 300px;
+  position: relative;
+  background-color: lightpink;
+
+
+}
+
+#mid {
+  height: 190px;
+  width: 190px;
+  margin-left: 18%;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #ffe7e7;
+  margin-top: 12%;
+}
+
+#inner {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: 86px;
+  margin-left: 104px;
+  background-color: #936b6b;
+}
+
+
+
+/* style buttons */
+.menu-button {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.comp-image{
+  height: 100%;
+  width: 100%;
+}
+#prev{
+  position: absolute;
+  margin-top: 88px;
+  margin-left: 10px;
+}
+
+#forword {
+  position: absolute;
+  margin-left: 164px;
+  margin-top: 88px;
+}
+
+#play-pause {
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 88px;
+}
+
+#cover-comp{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* style app components */
+
+.cover {
+   width: 100%; 
+   height: 50%;
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2021/10/Apple-iPod-Nano-ad.png);
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.menu{
+  position: relative;
+  border-right: 1px solid black;
+  width: 45%;
+  height: 100%;
+  background-color: white;
+}
+
+.music{
+  position: relative;
+  border: 1px solid black;
+  width: 45%;
+  height: 100%;
+  background-color: white;
+}
+
+
+.status-bar{
+  background-color: whitesmoke;
+  height: 30px;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.battery{
+  margin-left: 30px;
+  height: 20px;
+  width: 20px;
+ padding-top: 5px;
+  
+}
+
+
+.menu-block{
+  position: relative;
+  border-top: 1px solid black;
+  width: 100%;
+  height: 217px;
+  background-color: white;
+  padding-left: 0px;
+}
+
+#heading{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 40px;
+color: black;
+  font-family: cursive;
+}
+
+#menu-list{
+  width: 98%;
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  height: 80%;
+  margin: 2px;
+  color: deeppink;
+  font-size: large;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+
+.item{
+  margin-bottom: 10px;
+  
+}
+
+
+#small-img {
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  margin-left: 94px;
+  margin-top: -35px;
+}
+
+#heading-list {
+  margin: 0px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.active
+{
+  background-color:rgb(247 200 255);;
+}
+
+/* #img-div {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+} */
